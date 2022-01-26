@@ -1,8 +1,8 @@
 {
-  "name": "absolute-hotbar-keybinds",
+  "name": "fvtt-hotbar-macro-keybinds",
   "title": "Absolute Hotbar Keybindings",
   "description": "Allows assigning keybinds to specific macro hotbar slots, regardless of which one is currently visible",
-  "version": "This is auto replaced",
+  "version": "0.1",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "9",
@@ -21,13 +21,13 @@
     
   ],
   "esmodules": [
-    "/scripts/module.js"
+    "./scripts/module.js"
   ],
   "scripts": [
-    "/scripts/lib/lib.js"
+    "./scripts/lib/lib.js"
   ],
   "styles": [
-    "/styles/module.css"
+    "./styles/module.css"
   ],
   "languages": [
     {
@@ -36,9 +36,7 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
+  "url": "https://github.com/whitespine/fvtt-hotbar-macro-keybinds",
   "media": [
     {
       "type": "icon",
