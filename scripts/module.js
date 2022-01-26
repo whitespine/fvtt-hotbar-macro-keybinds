@@ -3,8 +3,8 @@ Hooks.once('init', async function() {
 		for(let slot=0; slot<=9; slot++) {
 			let macro_slot = bar ? `${bar}${slot}` : `${slot}`;
 
-			game.keybindings.register("core", `absHotbarBind${macro_slot}`, {
-				name: `Bar ${bar + 1} macro slot ${slot}`,
+			game.keybindings.register("fvtt-hotbar-macro-keybinds", `absHotbarBind${macro_slot}`, {
+				name: `Execute Hotbar ${bar + 1} Slot ${slot}`,
 				hint: `Pressing this will execute the macro in hotbar slot ${slot} of bar ${bar + 1}`,
 				onDown: () => {
 					let macro_id = game.user.data.hotbar[macro_slot];
@@ -23,6 +23,6 @@ Hooks.once('init', async function() {
 	}
 });
 
-Hooks.once('ready', async function() {
+// Hooks.once('ready', async function() {
 
-});
+// });
