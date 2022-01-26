@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "absolute-hotbar-keybinds",
+  "title": "Absolute Hotbar Keybindings",
+  "description": "Allows assigning keybinds to specific macro hotbar slots, regardless of which one is currently visible",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,8 +9,8 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
+      "name": "WHITESPINE",
+      "url": "https://github.com/whitespine",
       "discord": "discordID#0001"
     }
   ],
